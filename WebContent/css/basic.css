@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+
+<!-- ここから　메인 기본 css -->
+
+* body{
+	
+	background-color: #ffcb4f;
+	
+}
+
+#basicFrame{
+	
+	
+	margin-top:100px;
+	align:center;
+	width:1400px;
+	margin:auto;
+	
+}
+
+#basicTitle{
+	
+	text-align: center;
+	font-size:30pt;
+	font-weight:bolder;
+	color:#295ea4;
+	
+}
+
+#basicLeft{
+	
+	width:200px;
+	border:3px solid yellow;
+
+}
+
+#basicLeft a{
+	
+	text-decoration: none;
+	color:#888888;
+	
+}
+
+#contentPage{
+	
+	
+	min-height:600px;
+	padding:50px;
+	background-color:white;
+	
+}
+
+
+
+a {
+	
+	text-decoration:none;
+	color:#888888;
+	
+}
+
+a:hover{
+	
+	font-weight: bolder;
+}
+
+<!-- ここまで　메인 기본 css -->
+
+
+
+<!-- ここから　top menu css -->
+
+
+#smallMenu{
+	
+	
+}
+
+#mainMenu{
+	
+	width:1400px;
+	background-color:#295ea4;
+	color:#ffcb4f;
+	font-weight: 900;	
+	
+}
+
+#mainMenu td{
+	
+	width:350px;
+	height:70px;
+	text-align:center;
+	font-size:20pt;
+	
+}
+
+#mainMenu a{
+	
+	color:#ffcb4f;
+	
+}
+
+
+<!-- ここまで　top menu css -->
+
+
+<!-- ここから　content menu css -->
+
+
+#contentFrame{
+	
+	
+	
+	
+}
+<!-- ここまで　top menu css -->

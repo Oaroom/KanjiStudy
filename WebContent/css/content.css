@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+
+#todayKanji h1{
+	
+	width:200px;
+	color : #295ea4;
+	border-bottom:2px solid #295ea4;
+	border-top:2px solid #295ea4;
+	
+}

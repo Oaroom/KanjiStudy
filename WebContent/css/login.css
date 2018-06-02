@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+
+
+
+<!-- ここから　로그인 css -->
+
+* body{
+	
+	background-color:#ffcb4f;
+	
+}
+
+.loginFrame{
+	
+	margin-top:200px;
+	margin-bottm:auto;
+	background-color:white;
+	width:700px;
+	height:400px;
+	display:inline-block;
+	align:center;
+	
+}
+
+
+.loginFrame h3{
+	
+	font-size:30pt;
+	color:#295ea4;
+	
+}
+
+.loginFrame input[type="text"]{
+	
+	width:280px;
+	height:30px;
+	margin:5px;
+	
+	
+	
+}
+
+.loginFrame input[type="password"]{
+	
+	width:280px;
+	height:30px;
+	margin:5px;
+	
+	
+	
+}
+
+
+.loginFrame input[type="submit"]{
+	margin-top:10px;
+	margin-bottom:10px;
+	width:200px;
+	height:50px;
+	background-color:white;
+	border:3px solid #295ea4;
+	border-radius:30px;
+	color:#295ea4;
+	font-size:15pt;
+	font-weight: bolder;
+}
+
+
+.loginFrame input[type="submit"]:hover{
+	margin-top:10px;
+	margin-bottom:10px;
+	width:200px;
+	height:50px;
+	background-color:#295ea4;
+	border:3px solid #295ea4;
+	border-radius:30px;
+	color:white;
+	font-size:15pt;
+	font-weight: bolder;
+}
+
+
+.loginFrame a{
+	
+	color:#808080;
+	text-decoration:none;
+	
+}
+
+
+<!-- ここまで　로그인 css -->
+
+
+<!-- ここから　회원가입 css -->
+#signupFrame{
+	
+	border:1px solid black;
+	margin:auto;
+	width:300px;
+	height:300px;
+	display:inline-block;
+	
+}
+<!-- ここまで　회원가입 css -->
+

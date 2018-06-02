@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+
+#remFrame{
+	
+	margin:auto;
+	margin-top:50px;
+	width:800px;
+	height:500px;
+	border:1px solid #888888;
+	
+}
