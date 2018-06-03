@@ -55,7 +55,7 @@
 			</td>
 			
 			<td>
-				<a href="#">단어추가</a>
+				<a href="plus.jsp">단어추가</a>
 			</td>
 			
 			<td>

@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+
+#plusFrame{
+	
+	text-align:center;
+	min-height:600px;
+	padding:50px;
+	background-color:white;
+	
+}
+
+
+#noLogin{
+	
+	background:url(http://cdn.zetawiki.com/png/slash.png);
+	min-height:600px;
+	padding:50px;
+	background-color:white;
+	text-align:center;
+	
+}
+
+
+#noLogin h2{
+	
+	
+	color:#333333;
+	font-weight: bolder;	
+	
+}
+
+
+#noLogin input[type="submit"]{
+	margin-top:10px;
+	margin-bottom:10px;
+	width:200px;
+	height:50px;
+	background-color:white;
+	border:3px solid #295ea4;
+	border-radius:30px;
+	color:#295ea4;
+	font-size:15pt;
+	font-weight: bolder;
+}
+
+
+#noLogin input[type="submit"]:hover{
+	margin-top:10px;
+	margin-bottom:10px;
+	width:200px;
+	height:50px;
+	background-color:#295ea4;
+	border:3px solid #295ea4;
+	border-radius:30px;
+	color:white;
+	font-size:15pt;
+	font-weight: bolder;
+}
+
+
+
+
+
+#plusFrame h1{
+	font-family:'맑은 고딕';
+	color:#595959;
+	
+}
+
+
+#plusFrame #title{
+	
+	color : #295ea4;
+	font-size:30pt;
+	font-weight:bolder;
+	border-bottom:5px solid #888888;
+	border-top:5px solid #888888;
+	padding-top:5px;
+	padding-bottom:5px;
+	
+	
+}
+
+
+#plusFrame #sub{
+	
+	color:#aaaaaa;
+	font-size:15pt;
+	
+}
+
+#plusTable{
+	
+	margin-top:30px;
+	margin-auto;
+	display:inline-block;
+	font-weight:bolder;
+	
+	color:#333333;
+}
+
+
+.str{
+	
+	font-size:10pt;
+	
+}
+
+
+
+
+#plusTable input[type="text"]{
+	width:280px;
+	height:30px;
+	margin:5px;
+}
+
+
+
+#plusTable input[type="submit"]{
+	margin-top:30px;
+	margin-bottom:10px;
+	width:200px;
+	height:50px;
+	background-color:white;
+	border:3px solid #295ea4;
+	border-radius:30px;
+	color:#295ea4;
+	font-size:15pt;
+	font-weight: bolder;
+}
+
+
+#plusTable input[type="submit"]:hover{
+	margin-top:30px;
+	margin-bottom:10px;
+	width:200px;
+	height:50px;
+	background-color:#295ea4;
+	border:3px solid #295ea4;
+	border-radius:30px;
+	color:white;
+	font-size:15pt;
+	font-weight: bolder;
+}
+

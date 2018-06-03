@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 
-<link rel="stylesheet" type="text/css" href="css/content.css?ver=3"> 
+<link rel="stylesheet" type="text/css" href="css/basic.css?ver=3"> 
 
 
 </head>
