@@ -15,52 +15,64 @@
 <body>
 
 
-	<div id="contentPage">
+	<div id="rememberFrame">
 	
-		<table border>
+		<table align="center" style="text-align:center" id="kanjiTable">
 			<tr>
 				<td>
 					<img src="back.png">
 				</td>
-				<td id="kanji">
-					<%
+				<td id="kanji" style="width:300px; font-size: 150pt;">
+
+
+		<%
+							
+				String filePath = application.getRealPath("/WEB-INF/kanji.txt");
+				
+			
+				File file = new File(filePath);
+				
+				FileReader filereader = new FileReader(file);
+				BufferedReader bufReader = new BufferedReader(filereader);
+				
+				String info;
+				String value[];
+				boolean chk = false;
+				
+						info = bufReader.readLine();
+						
+						value = info.split("/");
 					
-		String filePath = application.getRealPath("/WEB-INF/kanji.txt");
-		
-	
-		File file = new File(filePath);
-		
-		FileReader filereader = new FileReader(file);
-		BufferedReader bufReader = new BufferedReader(filereader);
-		
-		String info;
-		String value[];
-		boolean chk = false;
-		
-	
-			while(true){
 				
 				
-				info = bufReader.readLine();
+			%>
 				
-				if(info==null){
-					break;
-				}else{
-				
-					value = info.split("/");
-				
-				}
-			}
-		
-		
-	%>
-					
+				<%= value[0] %>
+							
 					
 					
 				
 				</td>
 				<td>
 					<img src="next.png">
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3">
+					
+					
+					
+					<%= value[1] %>
+					
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3">
+					
+					
+					
+					<%= value[2]+" / "+ value[3]+" / "+value[4] %>
+					
 				</td>
 			</tr>
 		</table>

@@ -44,7 +44,9 @@
 
 #contentPage{
 	
-	
+	align:center;
+	display:inline-block;
+	width:1300px;
 	min-height:600px;
 	padding:50px;
 	background-color:white;
