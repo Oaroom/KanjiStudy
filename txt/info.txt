@@ -1,4 +1,1 @@
-﻿오어진 hello world
-오아름 arum 0807
-이동현 udon 1008
-  
+﻿오아름 hello world

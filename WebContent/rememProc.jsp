@@ -1,3 +1,4 @@
+<%@page import="java.io.FileWriter"%>
 <%@page import="java.io.BufferedReader"%>
 <%@page import="java.io.FileReader"%>
 <%@page import="java.io.File"%>
@@ -11,6 +12,8 @@
 </head>
 
 <link rel="stylesheet" type="text/css" href="css/remember.css?ver=3"> 
+
+
 
 <body>
 
@@ -73,6 +76,15 @@
 					
 					<%= value[2]+" / "+ value[3]+" / "+value[4] %>
 					
+				</td>
+			</tr>
+				<tr>
+				<td colspan="3">
+					
+					
+				<form action="rememChk.jsp" method="post">
+					 <input type="submit" value="단어장에 추가" id="plusButton" name=<%=value%>>
+				</form>
 				</td>
 			</tr>
 		</table>

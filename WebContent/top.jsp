@@ -59,7 +59,7 @@
 			</td>
 			
 			<td>
-				<a href="#">나의 단어장</a>
+				<a href="mypage.jsp">나의 단어장</a>
 			</td>
 		
 		</tr>
