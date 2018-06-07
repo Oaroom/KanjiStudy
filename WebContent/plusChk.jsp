@@ -25,13 +25,13 @@
 	String huri = request.getParameter("huri");
 	String jpvalue = request.getParameter("jpvalue");
 	
+	String jlpt = request.getParameter("jlpt");
 	
 	
 	
+	String filePath = application.getRealPath("/WEB-INF/"+jlpt+".txt");
 	
-	String filePath = application.getRealPath("/WEB-INF/kanji.txt");
-		
-	
+	String values;
 	File file = new File(filePath);
 
 
@@ -40,14 +40,19 @@
 try {
 
 	BufferedWriter bw = new BufferedWriter(new FileWriter(filePath,true));
+	
 	PrintWriter pw = new PrintWriter(bw,true);
+	
 
-
-	pw.printf(shape+"/"+value+"/"+sound+"/"+jp+"/"+huri+"/"+jpvalue);
-
+	values=shape+"/"+value+"/"+sound+"/"+jp+"/"+huri+"/"+jpvalue;
+	
+	pw.printf(values);
+	
 
 	bw.newLine();
+	
 	pw.flush();
+	
 	pw.close();
 	
 	

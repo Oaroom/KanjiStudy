@@ -81,6 +81,20 @@
 					</td>
 				</tr>
 			
+			
+				<tr>
+					<td>
+						JLPT 급수
+					</td>
+					<td style="font-weight:normal;">
+						<input type="radio" name="jlpt" value="n1" required>N1
+						<input type="radio" name="jlpt" value="n2" >N2
+						<input type="radio" name="jlpt" value="n3" >N3
+						<input type="radio" name="jlpt" value="n4" >N4
+						<input type="radio" name="jlpt" value="n5" >N5
+					</td>
+				</tr>
+			
 				<tr>
 					<td>
 						일어 단어

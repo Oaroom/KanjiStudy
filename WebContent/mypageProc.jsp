@@ -9,6 +9,7 @@
 
 <link rel="stylesheet" type="text/css" href="css/mypage.css?ver=3"> 
 
+<div id="myFrame">
 <body>
 
 <%
@@ -22,7 +23,7 @@
 			<img src="lock.png" width="200px" height="200px" style="margin-top:100px">
 			<h2>회원만 가능한 서비스입니다.</h2>
 			<h2>로그인 및 회원가입을 해주세요</h2>
-		<input type="submit" value="로그인" onclick="location.href='login.jsp'">
+		<input type="submit" value="로그인" id="loginB" onclick="location.href='login.jsp'">
 		
 		</div>
 		
@@ -38,12 +39,13 @@
 		<h3> 총 <%= count %>개의 단어가 저장되어있습니다.</h3>
 	</div>
 </div>
+
 <%
 
 	}
 
 
 %>
-
+</div>
 </body>
 </html>

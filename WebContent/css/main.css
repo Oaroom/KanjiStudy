@@ -18,10 +18,26 @@
 	background-color:white;
 }
 
+#all{
+	
+	color:#295ea4;
+	width:200px;
+	height:50px;
+	font-size:20pt;
+	font-weight:bolder;
+	vertical-align: middle;
+	border-radius: 10px;
+	border:3px solid #295ea4;
+	background-color:white;
+	margin:0px 5px;
+	
+	
+}
+
 #n1{
 	
 	color:#295ea4;
-	width:220px;
+	width:200px;
 	height:50px;
 	font-size:20pt;
 	font-weight:bolder;
@@ -35,7 +51,7 @@
 #n2{
 	
 	color:#295ea4;
-	width:220px;
+	width:200px;
 	height:50px;
 	font-size:20pt;
 	font-weight:bolder;
@@ -49,7 +65,7 @@
 #n3{
 	
 	color:#295ea4;
-	width:220px;
+	width:200px;
 	height:50px;
 	font-size:20pt;
 	font-weight:bolder;
@@ -63,7 +79,7 @@
 #n4{
 	
 	color:#295ea4;
-	width:220px;
+	width:200px;
 	height:50px;
 	font-size:20pt;
 	font-weight:bolder;
@@ -77,7 +93,7 @@
 #n5{
 	
 	color:#295ea4;
-	width:220px;
+	width:200px;
 	height:50px;
 	font-size:20pt;
 	font-weight:bolder;
@@ -131,17 +147,53 @@
 
 
 #mainFrame{
-	
-	font-size:20pt;	
-	border:1px solid black;
+	margin:auto;
+	display:inline-block;
+	font-size:20pt;
 }
 
-#item3{
-	border:1px solid #295ea4;
+#item1{
+	border:3px solid #e71940;
 	text-align:center;
 	display:inline-block;
 	margin:5px;
-	width:200px;
+	width:180px;
+	font-size:50pt;
+	
+}
+#item2{
+	border:3px solid #0295db;
+	text-align:center;
+	display:inline-block;
+	margin:5px;
+	width:180px;
+	font-size:50pt;
+	
+}
+#item3{
+	border:3px solid #7ebf27;
+	text-align:center;
+	display:inline-block;
+	margin:5px;
+	width:180px;
+	font-size:50pt;
+	
+}
+#item4{
+	border:3px solid #f4980f;
+	text-align:center;
+	display:inline-block;
+	margin:5px;
+	width:180px;
+	font-size:50pt;
+	
+}
+#item5{
+	border:3px solid #b16baa;
+	text-align:center;
+	display:inline-block;
+	margin:5px;
+	width:180px;
 	font-size:50pt;
 	
 }
