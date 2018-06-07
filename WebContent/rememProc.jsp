@@ -20,76 +20,16 @@
 
 	<div id="rememberFrame">
 	
-		<table align="center" style="text-align:center" id="kanjiTable">
-			<tr>
-				<td>
-					<img src="back.png">
-				</td>
-				<td id="kanji" style="width:300px; font-size: 150pt;">
+	<h1> 학습할 단어팩을 선택하세요. </h1>
 
-
-		<%
-							
-				String filePath = application.getRealPath("/WEB-INF/kanji.txt");
-				
-			
-				File file = new File(filePath);
-				
-				FileReader filereader = new FileReader(file);
-				BufferedReader bufReader = new BufferedReader(filereader);
-				
-				String info;
-				String value[];
-				boolean chk = false;
-				
-						info = bufReader.readLine();
-						
-						value = info.split("/");
-					
-				
-				
-			%>
-				
-				<%= value[0] %>
-							
-					
-					
-				
-				</td>
-				<td>
-					<img src="next.png">
-				</td>
-			</tr>
-			<tr>
-				<td colspan="3">
-					
-					
-					
-					<%= value[1] %>
-					
-				</td>
-			</tr>
-			<tr>
-				<td colspan="3">
-					
-					
-					
-					<%= value[2]+" / "+ value[3]+" / "+value[4] %>
-					
-				</td>
-			</tr>
-				<tr>
-				<td colspan="3">
-					
-					
-				<form action="rememChk.jsp" method="post">
-					 <input type="submit" value="단어장에 추가" id="plusButton" name=<%=value%>>
-				</form>
-				</td>
-			</tr>
-		</table>
-	
+	<%
+	for(int i = 1 ; i < 6 ; i++){
+	%>
+	<div class="folder" onclick="location.href='test.jsp?value=<%=i%>'">
+		<%="N"+i %>
 	</div>
-
+		<%
+	} %>
+</div>
 </body>
 </html>

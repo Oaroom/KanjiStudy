@@ -47,6 +47,8 @@
 	align:center;
 	display:inline-block;
 	width:1300px;
+		overflow:hidden;
+	height:auto;
 	min-height:600px;
 	padding:50px;
 	background-color:white;

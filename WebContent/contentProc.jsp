@@ -100,7 +100,7 @@
 				
 				%>
 				
-				<div id="<%=name[i]%>">
+				<div id="<%=name[i]%>" onclick="location.href='card.jsp?type=<%=index[i]%>&value=<%= value[0]%>'">
 					<%=value[0] %>
 				</div>
 				

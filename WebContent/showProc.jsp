@@ -93,9 +93,10 @@ String jlpt = request.getParameter("bt");
 				
 				%>
 				
-				<div id="<%=name[color-1]%>">
+				<div id="<%=name[color-1]%>" onclick="location.href='card.jsp?type=<%=index[color-1]%>&value=<%= value[0]%>'">
 					<%=value[0] %>
 				</div>
+				
 				
 				<% 
 				

@@ -32,6 +32,10 @@
 	String filePath = application.getRealPath("/WEB-INF/"+filename);
 	//out.println(filename);
 	
+		String filePath1 = application.getRealPath("/WEB-INF/"+id+".txt");
+	File f = new File(filePath1); 
+	FileWriter file = new FileWriter(f);
+	
 		PrintWriter writer = null;
 		
 	try {
