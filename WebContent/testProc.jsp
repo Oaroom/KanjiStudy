@@ -45,7 +45,6 @@ String value = request.getParameter("value");
 				
 				info = bufReader.readLine();
 				
-			
 				
 				if(info == null){
 					

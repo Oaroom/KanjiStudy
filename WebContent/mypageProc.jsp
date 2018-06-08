@@ -19,45 +19,10 @@
 
 
 <%
-			
-			int count=0;
-			String info;
-			String value[];
-	
-			String filePath = application.getRealPath("/WEB-INF/"+session.getAttribute("loginid")+".txt");
-			File file = new File(filePath);
-			FileReader filereader = new FileReader(file);
-			BufferedReader bufReader = new BufferedReader(filereader);
-			
-		
-
-			while(true){
-				
-				info = bufReader.readLine();
-				
-			
-				
-				if(info == null){
-					
-					break;
-					
-				}
-				
-				count++;
-			
-				
-				}
-			
-
-		%>
-
-
-
-<%
 
 	
 
-	if(session.getAttribute("loginid") == null){
+if(session.getAttribute("loginid") == null){
 		
 		%>
 		<div id="noLogin">
@@ -71,6 +36,36 @@
 		<%
 	}else{
 
+		
+		int count=0;
+		String info;
+		String value[];
+
+		String filePath = application.getRealPath("/WEB-INF/"+session.getAttribute("loginid")+".txt");
+		File file = new File(filePath);
+		FileReader filereader = new FileReader(file);
+		BufferedReader bufReader = new BufferedReader(filereader);
+		
+	
+
+		while(true){
+			
+			info = bufReader.readLine();
+			
+		
+			
+			if(info == null){
+				
+				break;
+				
+			}
+			
+			count++;
+		
+			
+			}
+		
+		
 
 %>
 <div id="mypageFrame">
